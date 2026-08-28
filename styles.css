@@ -113,3 +113,10 @@ footer{width:min(calc(100% - 40px),var(--max));margin:0 auto;padding:34px 0 44px
   .cert-grid{grid-template-columns:1fr}
   footer{flex-direction:column;gap:8px}
 }
+
+/* Professional experience detail enhancements */
+.brand{white-space:nowrap;font-size:1rem;letter-spacing:-.025em}
+.experience-details{margin:14px 0 0;padding-left:20px;color:#b6c4d6;max-width:860px}
+.experience-details li{margin:0 0 10px;padding-left:4px}
+.experience-details li::marker{color:var(--accent)}
+@media (max-width:560px){.brand{font-size:.88rem}.nav-cta{padding:8px 10px}}
